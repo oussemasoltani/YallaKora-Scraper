@@ -1,10 +1,7 @@
-# Match Center Scraper
-
-## Description
-This project scrapes match details from Yallakora's Match Center for a specified date and saves the details into a CSV file.
-
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+"# Match Center Scraper" 
+-e "\n## Description\nThis project scrapes match details from Yallakora's Match Center for a specified date and saves the details into a CSV file." 
+-e "\n## Installation\n1. Clone the repository:\n   \`\`\`sh\n   git clone https://github.com/oussemasoltani/YallaKora-Scraper.git\n   cd YallaKora-Scraper\n   \`\`\`\n\n2. Install the required Python packages:\n   \`\`\`sh\n   pip install requests beautifulsoup4\n   \`\`\`" 
+-e "\n## Usage\n1. Run the script:\n   \`\`\`sh\n   python yallakora.py\n   \`\`\`\n2. Enter the desired date in the format MM/DD/YYYY when prompted.\n3. The script will create a \`match-details.csv\` file in the \`C:\\Users\\21623\\Documents\\Code\\KoraLive\` directory with the match details." 
+-e "\n## Project Structure\n\`\`\`\n.\n³\nÃÄÄ yallakora.py          # Main script to scrape match details\nÃÄÄ README.md             # Project description and instructions\nÀÄÄ match-details.csv     # Output CSV file (created after running the script)\n\`\`\`" 
+-e "\n## Contributing\nIf you would like to contribute to this project, please fork the repository and submit a pull request." 
+-e "\n## License\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details." 
